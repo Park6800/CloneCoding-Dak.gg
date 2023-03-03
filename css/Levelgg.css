@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ol ul li {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background: rgb(38, 41, 45);
+}
+
+#color_link {
+    color: white;
+}
+
+.mainHeader {
+    width: 70%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.head_sel ul li {
+    float: left;
+    margin-left: 20px;
+}
+
+.head_sel ul li a {
+    color: gray;
+}
+
+.header_logo {
+    width: 70%;
+    height: 70px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subhead_right {
+    float: right;
+    display: flex;
+}
+
+.login {
+    border: 1px solid white;
+    background: rgb(38, 41, 45);
+    color: white;
+    border-radius: 5px;
+    margin: 2px 20px;
+    padding: 0 13px;
+    height: 40px;
+
+}
+
+.head_sel ul li:nth-child(n+2) {
+    position: relative;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+.head_sel ul li:nth-child(n+2)::after {
+    position: absolute;
+    left: 2px;
+    top: 3px;
+    content: "";
+    width: 1px;
+    height: 13px;
+    background-color: gray;
+}
+
+.flow {
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    background: black;
+}
+
+.fixed_con {
+    
+    width: 100%;
+    height: 200px;
+    background: rgb(35, 36, 45);
+}
+
+.fixed_title {
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.sub_con {
+    float: left;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.menu a{
+    
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 20px;
+    padding-right: 44px;
+    padding-bottom: 20px;
+    padding-left: 44px;
+}
+
+.flow:hover {
+    height: 200px;
+}
+
+
+.sub a { 
+    color: #bbb;
+    display: block; 
+    font-size: 14px;
+    line-height: 100%;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.another{
+    position: relative;
+    height: 1000px;
+    
+}
+.banner_container a img{
+    position: absolute;
+    display: inline-block;
+    top: 0px;
+    width: 100%;
+    height: 420px;
+}
