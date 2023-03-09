@@ -201,9 +201,9 @@ header {
 }
 
 
-.sec_first{
+section{
     width: 100%;
-    height: 700px;
+    height: 500px;
 }
 .official_match{
     width: 70%;
@@ -251,7 +251,6 @@ header {
 }
 .match_moon{
     background: white;
-    float: left;
     border-radius: 10px;
     padding: 8px 15px;
     display: inline-block;
@@ -274,4 +273,124 @@ header {
 .title_holder p {
     font-size: 12px;
     color:#a4a3ae;
+}
+
+.game_img {
+    width: 200px;
+    height: 310px;
+}
+
+.swiper-container {
+    width:70%;
+    margin: auto;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+  }
+
+.swiper-slide{
+    width: 200px;
+}
+
+.swiper-slide img {
+    border-radius: 10px;
+    background: #000;
+    margin-top: 20px;
+    width: 200px;
+    height: 300px;
+}
+
+.swiper-button-next{
+    color: #fff !important;
+}
+.swiper-button-prev{
+    color: #fff !important;
+}
+
+.in-font1, .in-font2, .in-font3, .in-font4, .in-font5, .in-font6, .in-font7, .in-font8, .in-font9, .in-font10, .in-font11{
+    z-index: 10;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    font-size: 30px;
+    font-family: ChakraPetch,Noto Sans,Malgun Gothic,맑은 고딕,sans-serif;
+    color: rgba(219,172,64);
+    font-weight: 700;
+}
+.in-font2{
+    color: rgb(242, 169, 0);
+}
+.in-font3{
+    color: rgb(16, 236, 165);
+}
+.in-font4{
+    color: rgb(239, 104, 52);
+}
+.in-font5{
+    color: rgb(179, 237, 23);
+}
+.in-font6{
+    color: rgb(105, 197, 250);
+}
+.in-font7{
+    color: rgb(25, 137, 215);
+}
+.in-font8{
+    color: rgba(255, 255, 255, 0.8);
+}
+.in-font9{
+    color: rgb(100, 157, 29);
+}
+.in-font10{
+    color: rgb(247, 96, 38)
+}
+.in-font11{
+    color: rgb(255, 70, 84);
+}
+.in-kor-font{
+    position: absolute;
+    bottom: 10px;
+    font-size: 15px;
+    font-family: ChakraPetch,Noto Sans,Malgun Gothic,맑은 고딕,sans-serif;
+    color: #fff;
+    left: 10px;
+    font-weight: 700;
+}
+.bor-50{
+    position: absolute;
+     bottom: 70px;
+     width: 200px;
+     text-align: center;
+}
+
+.swiper-slide .img-bor{
+    border-radius: 50%;
+    height: 250px;
+}
+
+  .swiper-container2 {
+    width:70%;
+    margin: auto;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  
+
+
+
+.swiper-slide img {
+    border-radius: 10px;
+    background: #000;
+    margin-top: 20px;
+    width: 200px;
+    height: 300px;
+}
+
+.swiper-button-next{
+    color: #fff !important;
+}
+.swiper-button-prev{
+    color: #fff !important;
 }
