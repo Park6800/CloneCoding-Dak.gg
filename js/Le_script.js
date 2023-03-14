@@ -36,11 +36,11 @@ buttonLeft.addEventListener('click', () => {
 
 
 
-  var mySwiper = new Swiper('.swiper-container', {
+
+  var mySwiper = new Swiper('.first', {
     slidesPerView: 6,
     slidesPerGroup: 2,
-    observer: true,
-    observeParents: true,
+
     spaceBetween: 50,
     // Optional parameters
     // 너비 비례 slidesPerView가 많으면 루프 작동 안함
@@ -48,7 +48,7 @@ buttonLeft.addEventListener('click', () => {
     
 
     autoplay: {     //자동슬라이드 (false-비활성화)
-      delay: 1000, // 시간 설정
+      delay: 4000, // 시간 설정
       disableOnInteraction: true, // false-스와이프 후 자동 재생
     },
     // Navigation arrows
@@ -56,25 +56,23 @@ buttonLeft.addEventListener('click', () => {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-  
+  pagination: '.swiper-pagination', 
     // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
+
   });
 
-  var mySwiper = new Swiper('.swiper-container2', {
-    slidesPerView: 4,
+  var Swiper2 = new Swiper('.seconde', {
+    slidesPerView: 6,
     slidesPerGroup: 2,
+    pagination: '.swiper-pagination', 
    
-    spaceBetween: 50,
     // Optional parameters
     // 너비 비례 slidesPerView가 많으면 루프 작동 안함
     loop: true,
     
 
     autoplay: {     //자동슬라이드 (false-비활성화)
-      delay: 1000, // 시간 설정
+      delay: 4000, // 시간 설정
       disableOnInteraction: true, // false-스와이프 후 자동 재생
     },
     // Navigation arrows
@@ -84,8 +82,33 @@ buttonLeft.addEventListener('click', () => {
     },
   
     // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
+ 
+  });
+
+  var Swiper3 = new Swiper('.third', {
+    slidesPerView: 3,
+    slidesPerGroup: 1,
+    spaceBetween: 50,
+    pagination: '.swiper-pagination', 
+    observer: true,
+		observeParents: true,
+    
+
+    // Optional parameters
+    // 너비 비례 slidesPerView가 많으면 루프 작동 안함
+    loop: true,
+    
+    autoplay: {     //자동슬라이드 (false-비활성화)
+      delay: 4000, // 시간 설정
+      disableOnInteraction: true, // false-스와이프 후 자동 재생
     },
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+ 
   });
 

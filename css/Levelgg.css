@@ -244,7 +244,7 @@ section{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background: #ebebf0;
-    padding: 5px 10px;
+    padding: 1px 10px;
     position: absolute;
     top: 255px;
     color:#000;
@@ -254,6 +254,7 @@ section{
     border-radius: 10px;
     padding: 8px 15px;
     display: inline-block;
+    margin-top: 10px;
 }
 .match_moon .m{
     font-size: 15px;
@@ -266,10 +267,12 @@ section{
 .title_holder{
     min-height: 75px;
     flex-flow: column;
+    align-items: center;
     justify-content: center;
-    display: flex;
-    padding: 0 20px;
+    display: inline-block;
+    padding: 0 10px;
 }
+
 .title_holder p {
     font-size: 12px;
     color:#a4a3ae;
@@ -292,13 +295,7 @@ section{
     width: 200px;
 }
 
-.swiper-slide img {
-    border-radius: 10px;
-    background: #000;
-    margin-top: 20px;
-    width: 200px;
-    height: 300px;
-}
+    
 
 .swiper-button-next{
     color: #fff !important;
@@ -358,29 +355,20 @@ section{
 }
 .bor-50{
     position: absolute;
-     bottom: 70px;
+     bottom: 20px;
      width: 200px;
      text-align: center;
 }
 
 .swiper-slide .img-bor{
     border-radius: 50%;
-    height: 250px;
+    height: 200px;
+    background: #000;
+    margin-top: 20px;
+    width: 200px;
 }
 
-  .swiper-container2 {
-    width:70%;
-    margin: auto;
-    height: 400px;
-    overflow: hidden;
-    position: relative;
-  }
-
-  
-
-
-
-.swiper-slide img {
+.swiper-slide .img-min {
     border-radius: 10px;
     background: #000;
     margin-top: 20px;
@@ -393,4 +381,177 @@ section{
 }
 .swiper-button-prev{
     color: #fff !important;
+}
+
+.seconde {
+    width:70%;
+    margin: auto;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+  }
+
+.box-match{
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.box {
+    width: 100%;
+    height: 500px;
+    background: #000;
+    border-radius: 30px;
+}
+.third{
+    width:70%;
+    margin: auto;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
+}
+
+.in_box{
+    width: 80%;
+    margin: auto;
+    background: #ebebf0;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.d-day{
+    background: #fff;
+    border-radius: 10px;
+    padding: 1px 8px;
+    display: inline-block;
+    margin: 0;
+}
+.d-day .m{
+    font-size: 15px;
+    font-weight: 600;
+}
+.d-day .d{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.title_time{
+    padding: 0 5px;
+    font-size: 13px;
+    display: inline-block;
+    line-height: 25px;
+}
+
+.under_box{
+    width: 80%;
+    margin: auto;
+    background: #ebebf0;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 130px;
+}
+
+#third_section{
+    height: 650px;
+}
+.title_hot{
+    display: inline-block;
+    margin: 0px 10px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.title_hot p{
+    color:blue;
+    font-size: 12px;
+}
+.title_under_box{
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 550;
+}
+
+.bot_banner{
+    height: 500px;
+    position: relative;
+}
+.banner-container{
+    width: 70%;
+    margin: auto;
+    height: 100%;
+}
+
+.riot_bg{
+   top: 53px;
+   position: absolute;
+}
+
+.riot_char {
+    z-index: 100;
+    position: absolute;
+}
+
+.arena-title-match{
+    position: absolute;
+    left: 15%;
+    top: 120px;
+    z-index: 110;
+    font-size: 20px;
+    color: #fff;
+}
+
+.link-wrapper{
+    position: absolute;
+    top: 200px;
+    width: 70%;
+    height: 40%;
+}
+
+.riot_match_right {
+    position: relative;
+    z-index: 120;
+    width: 48%;
+    height: 100%;
+}
+
+.riot_match_left{
+    float: right;
+    position: relative;
+    z-index: 120;
+    width: 48%;
+    height: 100%;
+}
+
+.riot_match_title_right{
+    color: #fff;
+    z-index: 130;
+    width: 48%;
+    position: absolute;
+    width: 63%;
+    left: auto;
+    bottom: auto;
+    top: 0;
+    right: 0;
+    display: flex;
+}
+
+.riot_match_title_left{
+    color: #fff;
+    z-index: 130;
+    width: 49%;
+    position: absolute;
+    
+}
+
+.riot_match_title_right h3{
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 10px;
+    float: left;
+}
+.riot_match_title_left h3{
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 10px;
 }
