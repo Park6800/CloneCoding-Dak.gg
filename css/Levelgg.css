@@ -90,7 +90,7 @@ header {
 
 .flow {
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     width: 100%;
     height: 60px;
     overflow: hidden;
@@ -295,8 +295,6 @@ section{
     width: 200px;
 }
 
-    
-
 .swiper-button-next{
     color: #fff !important;
 }
@@ -399,14 +397,14 @@ section{
 
 .box {
     width: 100%;
-    height: 500px;
+    height: 550px;
     background: #000;
     border-radius: 30px;
 }
 .third{
     width:70%;
     margin: auto;
-    height: 500px;
+    height: 600px;
     overflow: hidden;
     position: relative;
     margin-top: 30px;
@@ -490,6 +488,7 @@ section{
 .riot_char {
     z-index: 100;
     position: absolute;
+    top: 0;
 }
 
 .arena-title-match{
@@ -506,42 +505,41 @@ section{
     top: 200px;
     width: 70%;
     height: 40%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
 }
 
 .riot_match_right {
     position: relative;
     z-index: 120;
-    width: 48%;
+    width:650px;
     height: 100%;
 }
 
 .riot_match_left{
-    float: right;
     position: relative;
     z-index: 120;
-    width: 48%;
+    width: 650px;
     height: 100%;
 }
 
 .riot_match_title_right{
     color: #fff;
     z-index: 130;
-    width: 48%;
+    width: 20%;
     position: absolute;
-    width: 63%;
-    left: auto;
-    bottom: auto;
-    top: 0;
-    right: 0;
-    display: flex;
+    left: 200px;
+    top: 40px;
 }
 
 .riot_match_title_left{
     color: #fff;
     z-index: 130;
-    width: 49%;
+    width: 20%;
     position: absolute;
-    
+    right: 80px;
+    top: 40px;
 }
 
 .riot_match_title_right h3{
@@ -554,4 +552,115 @@ section{
     font-size: 38px;
     line-height: 46px;
     margin-bottom: 10px;
+}
+
+.box_TV{
+    border-radius: 10px;
+    width: 100%;
+}
+.tv_{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px;
+}
+.swiper-slide p {
+    font-size: 14px;
+    margin: 10px;
+}
+
+#more_{
+    height: 350px;
+}
+
+footer{
+    background: rgb(31, 34, 38);
+    height: 350px;
+}
+
+.icon{
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.icon img{
+
+}
+
+.footer_line{
+    width: 70%;
+    height: 200px;
+    padding: 50px;
+    margin: auto;
+}
+
+.channels{
+    text-align: center;
+}
+
+.channels li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.channels li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebebf0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.links{
+    text-align: center;
+}
+
+.link_list{
+    display: inline-block;
+}
+
+.link_list a{
+    margin: 20px 16px 12px 16px;
+}
+
+.link_sup{
+    display: inline-block;
+}
+
+.link_sup a {
+    display: flex;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    border-radius: 12px;
+    border: 1px solid #a4a3ae;
+}
+
+.site_info{
+    text-align: center;
+}
+
+.site_info ul li{
+    display: inline-block;
+    margin: 15px;
+}
+
+.site_info ul li:nth-child(n+2) {
+    position: relative;
+    margin-left: 3px;
+    padding-left: 20px;
+}
+
+.site_info ul li:nth-child(n+2)::after {
+    position: absolute;
+    top: 3px;
+    left: 1px;
+    content: "";
+    width: 1px;
+    height: 16px;
+    background-color: gray;
 }

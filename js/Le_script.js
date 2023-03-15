@@ -9,6 +9,11 @@ function downHill() {
     }
 }
 
+
+function login_page() {
+  location.href="/html/login_page.html";
+}
+
 const main_banner = document.querySelector('.banner');
 const List = document.querySelector('.ban_list');
 const _banner = document.querySelectorAll('.ban');
@@ -111,4 +116,3 @@ buttonLeft.addEventListener('click', () => {
     // And if we need scrollbar
  
   });
-
