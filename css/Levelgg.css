@@ -69,7 +69,7 @@ header {
     margin: 2px 20px;
     padding: 0 13px;
     height: 40px;
-
+    cursor: pointer;
 }
 
 .head_sel ul li:nth-child(n+2) {
