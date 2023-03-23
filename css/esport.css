@@ -93,7 +93,7 @@ section {
     border: 2px solid gray;
     border-radius: 50%;
     display: flex;
-    margin: 0 30px 10px 30px;
+    margin: 0 25px 10px 25px;
 }
 
 .lck img:hover {
@@ -249,7 +249,7 @@ section {
 }
 
 .page-wrapper {
-    height: 1200px;
+    height: 100%;
     background: rgb(27, 27, 30);
 }
 
@@ -263,7 +263,183 @@ section {
     color: white;
 }
 
+.list_content {
+    margin-top: 20px;
+}
+
 .match_box {
     border-radius: 5px;
     background-color: rgb(39, 39, 44);
+    padding: 12px 20px;
 }
+
+.date-bar {
+    font-size: 15   px;
+    font-weight: 700;
+    color: white;
+}
+
+.detail_schedule_item{
+    background-color: rgb(51, 51, 57) !important;
+    display: flex;
+    color: #fff;
+    z-index: 10;
+    padding: 17.5px 20px;
+    justify-content: space-between;
+}
+
+.match_time {
+    width: 80px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.live_tag {
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 11px;
+    padding: 3px 5px;
+}
+
+.time_ {
+    font-size: 12px;
+    align-items: center;
+}
+
+.team_profile {
+    width: 420px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+._team {
+    display: flex;
+}
+
+.left_team_img, .right_team_img {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.left_team_img {
+    margin-left: 10px;
+}
+
+.left_span, .right_span{
+    display: flex;
+    width: 140px;
+}
+
+.right_team_img{
+    margin-right: 10px;
+}
+
+.left_span {
+    justify-content: flex-end;
+}
+
+.right_span {
+    justify-content: flex-start;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 53px;
+    font-size: 18px;
+    font-weight: 700;
+    column-gap: 12px;
+}
+
+.border_bot {
+    border-bottom: 1px solid black;
+}
+
+footer {
+    border-top: 1px solid gray;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background: rgb(27, 27, 30);
+    margin-top: 60px;
+    position: relative;
+}
+
+.footer_main{
+    width: 63%;
+    margin: auto;
+}
+
+.footer_font{
+    padding-top: 50px;
+    float: left;
+}
+.fot_font{
+    display: inline-block;
+    padding: 45px 20px;
+}
+
+.fot_top a{
+    color: white;
+    font-size: 11px;
+}
+
+.fot_mid{
+    padding-top: 8px;
+}
+.fot_bot{
+    padding-top: 5px;
+}
+.fot_mid, .fot_bot{
+    font-size: 11px;
+    color: gray;
+}
+.fot_top a:nth-child(n+2) {
+    position: relative;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+.fot_top a:nth-child(n+2)::after {
+    position:absolute;
+    left: 0;
+    top: 3px;
+    content: "";
+    width: 1px;
+    height: 13px;
+    background-color: gray;
+}
+
+.anther{
+    position: relative;
+    z-index: 10000000;
+}
+.message_button {
+    position: fixed;
+    right: 50px;
+    border-radius: 50%;
+    background-color: rgb(198, 243, 0);
+    width: 60px;
+    height: 60px;
+    color: white;
+    bottom: 50px;
+    border: 0px;
+    cursor: pointer;
+}
+
+iframe {
+    width: 300px;
+    height: 350px;
+    background: #fff;
+    position: fixed;
+    bottom: 120px;
+    right: 50px;
+}
+
