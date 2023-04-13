@@ -153,3 +153,25 @@ header {
 .low{
     height: 580px;
 }
+
+.back-black {
+    height: 2000px;
+    background-color: rgb(20, 20, 28);
+    position: relative;
+}
+
+.top_img ,.bot_img{
+    position: absolute;
+}
+
+.top_img {
+    width: 100%;
+    z-index: 1;
+}
+
+.bot_img {
+    width: 100%;
+    top: 1100px;
+    z-index: 1;
+}
+
