@@ -167,11 +167,24 @@ header {
 .top_img {
     width: 100%;
     z-index: 1;
+    position: absolute;
 }
 
 .bot_img {
     width: 100%;
     top: 1100px;
     z-index: 1;
+    position: absolute;
+}
+
+.tournament {
+    position: relative;
+}
+
+.content-area {
+    position: absolute;
+    z-index: 6;
+    padding-top: 124px;
+    padding-bottom: 160px;
 }
 
