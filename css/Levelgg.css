@@ -29,6 +29,7 @@ header {
     justify-content: space-between;
     font-size: 15px;
 }
+
 .leng{
     color:white;
 }
@@ -192,9 +193,7 @@ header {
     border: 0;
     border-radius: 10px;
     font-weight: 900;
-
 }
-
 
 section{
     width: 100%;
@@ -209,11 +208,9 @@ section{
     justify-content: space-between;
 }
 .match_title h2 {
-
     font-size: 30px;
 }
 .more_match{
-
     padding: 10px 14px;
     border-radius: 10px;
     border: 0 ;
