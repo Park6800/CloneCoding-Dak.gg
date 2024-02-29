@@ -16,10 +16,10 @@ body {
     background: rgb(22, 22, 24);
 }
 
-
 header {
     background: rgb(54, 57, 68);
 }
+
 section{
     height: 1020px;
 }
@@ -38,7 +38,6 @@ section{
     float: left;
     margin-left: 20px;
 }
-
 
 .head_sel ul li a {
     color: gray;
@@ -90,9 +89,11 @@ section{
     width: 80%;
     margin: auto;
 }
+
 .ban{
     float: left;    
 }
+
 .ban_btn1 , .ban_btn2{
     text-align: left;
     padding: 10px;
@@ -113,7 +114,6 @@ section{
 .img_font{
     color: white;
 }
-
 
 h2 {
     font-size: 20px;
