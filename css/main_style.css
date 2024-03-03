@@ -331,6 +331,7 @@ footer {
     padding-top: 50px;
     float: left;
 }
+
 .fot_font{
     display: inline-block;
     padding: 45px 20px;
@@ -344,9 +345,11 @@ footer {
 .fot_mid{
     padding-top: 8px;
 }
+
 .fot_bot{
     padding-top: 5px;
 }
+
 .fot_mid, .fot_bot{
     font-size: 11px;
     color: gray;
