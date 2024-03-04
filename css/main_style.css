@@ -354,6 +354,7 @@ footer {
     font-size: 11px;
     color: gray;
 }
+
 .fot_top a:nth-child(n+2) {
     position: relative;
     margin-left: 5px;
