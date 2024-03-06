@@ -540,6 +540,7 @@ section{
     margin-bottom: 10px;
     float: left;
 }
+
 .riot_match_title_left h3{
     font-size: 38px;
     line-height: 46px;
@@ -550,11 +551,13 @@ section{
     border-radius: 10px;
     width: 100%;
 }
+
 .tv_{
     font-size: 18px;
     font-weight: 600;
     margin: 10px;
 }
+
 .swiper-slide p {
     font-size: 14px;
     margin: 10px;
@@ -577,7 +580,6 @@ footer{
 }
 
 .icon img{
-
 }
 
 .footer_line{
