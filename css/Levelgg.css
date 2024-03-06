@@ -139,7 +139,6 @@ header {
     height: 200px;
 }
 
-
 .sub a { 
     color: #bbb;
     display: block;
@@ -161,9 +160,8 @@ header {
     height: 500px;
     overflow: hidden;
     display: inline-block;
-
-    
 }
+
 .ban_list{
     transition: 1s ease-out;
     height: 100%;
@@ -184,6 +182,7 @@ header {
     overflow-x: hidden;
     bottom: 50px;
 }
+
 .ban_btn1 , .ban_btn2{
     margin-left: 10px;
     margin-right: 10px;
@@ -199,17 +198,21 @@ section{
     width: 100%;
     height: 500px;
 }
+
 .official_match{
     width: 70%;
     margin: auto;
 }
+
 .match_title{
     display: flex;
     justify-content: space-between;
 }
+
 .match_title h2 {
     font-size: 30px;
 }
+
 .more_match{
     padding: 10px 14px;
     border-radius: 10px;
@@ -226,11 +229,13 @@ section{
     position: relative;
     border-radius: 30px;    
 }
+
 .match_league img{
     width: 450px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
+
 .match_data {
     width: 429px;
     border-bottom-left-radius: 10px;
@@ -241,6 +246,7 @@ section{
     top: 255px;
     color:#000;
 }
+
 .match_moon{
     background: white;
     border-radius: 10px;
@@ -248,14 +254,17 @@ section{
     display: inline-block;
     margin-top: 10px;
 }
+
 .match_moon .m{
     font-size: 15px;
     font-weight: 600;
 }
+
 .match_moon .d{
     font-size: 23px;
     font-weight: 700;
 }
+
 .title_holder{
     min-height: 75px;
     flex-flow: column;
@@ -290,6 +299,7 @@ section{
 .swiper-button-next{
     color: #fff !important;
 }
+
 .swiper-button-prev{
     color: #fff !important;
 }
@@ -304,36 +314,47 @@ section{
     color: rgba(219,172,64);
     font-weight: 700;
 }
+
 .in-font2{
     color: rgb(242, 169, 0);
 }
+
 .in-font3{
     color: rgb(16, 236, 165);
 }
+
 .in-font4{
     color: rgb(239, 104, 52);
 }
+
 .in-font5{
     color: rgb(179, 237, 23);
 }
+
 .in-font6{
     color: rgb(105, 197, 250);
 }
+
 .in-font7{
     color: rgb(25, 137, 215);
 }
+
 .in-font8{
     color: rgba(255, 255, 255, 0.8);
 }
+
 .in-font9{
     color: rgb(100, 157, 29);
 }
+
 .in-font10{
     color: rgb(247, 96, 38)
 }
+
 .in-font11{
     color: rgb(255, 70, 84);
 }
+
 .in-kor-font{
     position: absolute;
     bottom: 10px;
@@ -343,6 +364,7 @@ section{
     left: 10px;
     font-weight: 700;
 }
+
 .bor-50{
     position: absolute;
      bottom: 20px;
@@ -369,6 +391,7 @@ section{
 .swiper-button-next{
     color: #fff !important;
 }
+
 .swiper-button-prev{
     color: #fff !important;
 }
@@ -393,6 +416,7 @@ section{
     background: #000;
     border-radius: 30px;
 }
+
 .third{
     width:70%;
     margin: auto;
@@ -417,10 +441,12 @@ section{
     display: inline-block;
     margin: 0;
 }
+
 .d-day .m{
     font-size: 15px;
     font-weight: 600;
 }
+
 .d-day .d{
     font-size: 23px;
     font-weight: 700;
@@ -446,6 +472,7 @@ section{
 #third_section{
     height: 650px;
 }
+
 .title_hot{
     display: inline-block;
     margin: 0px 10px;
