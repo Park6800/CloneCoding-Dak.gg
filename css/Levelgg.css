@@ -166,8 +166,8 @@ header {
     transition: 1s ease-out;
     height: 100%;
     display: flex;  
-    
 }
+
 .ban{
 
     margin-top: 50px;
@@ -493,6 +493,7 @@ section{
     height: 500px;
     position: relative;
 }
+
 .banner-container{
     width: 70%;
     margin: auto;
