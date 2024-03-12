@@ -1,4 +1,3 @@
-
 // 접었다 폈다
 function guide_sub_login() {
     var view = document.getElementById('guide');
