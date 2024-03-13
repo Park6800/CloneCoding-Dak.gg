@@ -93,7 +93,6 @@ buttonLeft.addEventListener('click', () => {
     observer: true,
 		observeParents: true,
     
-
     // Optional parameters
     // 너비 비례 slidesPerView가 많으면 루프 작동 안함
     loop: true,
@@ -107,7 +106,5 @@ buttonLeft.addEventListener('click', () => {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-  
     // And if we need scrollbar
- 
   });
