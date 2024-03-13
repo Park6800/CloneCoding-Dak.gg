@@ -9,7 +9,6 @@ function downHill() {
     }
 }
 
-
 function login_page() {
   location.href="/html/login_page.html";
 }
@@ -39,9 +38,6 @@ buttonLeft.addEventListener('click', () => {
     List.style.marginLeft = `-${main_banner.clientWidth * currentIndex}px`; // index만큼 margin을 주어 옆으로 밀기
   });
 
-
-
-
   var mySwiper = new Swiper('.first', {
     slidesPerView: 6,
     slidesPerGroup: 2,
@@ -51,7 +47,6 @@ buttonLeft.addEventListener('click', () => {
     // 너비 비례 slidesPerView가 많으면 루프 작동 안함
     loop: true,
     
-
     autoplay: {     //자동슬라이드 (false-비활성화)
       delay: 4000, // 시간 설정
       disableOnInteraction: true, // false-스와이프 후 자동 재생
